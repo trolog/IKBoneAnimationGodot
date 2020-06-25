@@ -1,0 +1,149 @@
+[gd_resource type="Animation" format=2]
+
+[resource]
+length = 2.3
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("TopLeg:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1.1, 1.3, 1.5, 1.7, 1.9, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ), Vector2( -0.22821, 31.0891 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("TopLeg:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1.1, 1.3, 1.5, 1.7, 1.9, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 741.182, 734.717, 716.956, 706.633, 674.999, 659.999, 668.58, 686.382, 696.174, 716.533, 723.563 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("TopLeg/BottomLeg/foot:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 1.1, 1.3, 1.5, 1.7, 1.9, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("TopLeg/BottomLeg/foot:rotation_degrees")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 1.1, 1.3, 1.7, 1.9, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -1.35465, 30.0, 15.0, 0.0, 6.15881, 15.0, 0.0, -12.0579, -15.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("TopLeg/BottomLeg:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1.1, 1.3, 1.5, 1.7, 1.9, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("TopLeg/BottomLeg:rotation_degrees")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1.1, 1.3, 1.5, 1.7, 1.9, 2.1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 27.1185, 74.9999, 98.5363, 105.0, 105.0, 74.9999, 34.0236, 11.8143, 25.5016, 18.0296, 51.958 ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("TopLeg2/BottomLeg:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ), Vector2( 3.26465, 237.166 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("TopLeg2/BottomLeg:rotation_degrees")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 59.9999, 41.2204, 23.8549, 34.6383, 44.5219, 41.269, 63.2118, 120.0, 117.946 ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("TopLeg2:position")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -27.1243, 63.6624 ), Vector2( -27.1243, 63.6624 ), Vector2( -27.1243, 63.6624 ), Vector2( -30.4484, 52.582 ), Vector2( -29.4986, 55.7478 ), Vector2( -29.0238, 57.3308 ), Vector2( -3.06414, 41.1851 ), Vector2( -11.0842, 48.6775 ), Vector2( -19.1042, 56.17 ) ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("TopLeg2:rotation_degrees")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -59.9999, -42.5134, -26.6885, -10.3533, 1.22659, 13.1309, 19.8052, -3.85382, -27.0045 ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("TopLeg2/BottomLeg/foot:position")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ), Vector2( 0.196381, 162.9 ) ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("TopLeg2/BottomLeg/foot:rotation_degrees")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ -1.30161, -15.0, 0.0, -15.0, -15.0, -12.7507, 15.0, 0.0, 0.0 ]
+}

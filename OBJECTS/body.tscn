@@ -1,0 +1,72 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://ANIMATION/RUN.tres" type="Animation" id=1]
+[ext_resource path="res://ANIMATION/IDLE.tres" type="Animation" id=2]
+[ext_resource path="res://SPRITES/BottomLeg.png" type="Texture" id=3]
+[ext_resource path="res://SPRITES/foot.png" type="Texture" id=4]
+[ext_resource path="res://SPRITES/TopLeg.png" type="Texture" id=5]
+
+[node name="body" type="Node2D"]
+
+[node name="TopLeg" type="Sprite" parent="."]
+modulate = Color( 0.705882, 0.705882, 0.705882, 1 )
+position = Vector2( -0.22821, 31.0891 )
+rotation = 12.6654
+texture = ExtResource( 5 )
+offset = Vector2( 0.0375366, 126.215 )
+__meta__ = {
+"_edit_bone_": true,
+"_edit_ik_": true
+}
+
+[node name="BottomLeg" type="Sprite" parent="TopLeg"]
+modulate = Color( 0.705882, 0.705882, 0.705882, 1 )
+position = Vector2( 3.26465, 237.166 )
+rotation = 0.308918
+texture = ExtResource( 3 )
+offset = Vector2( 1.68179, 82.4079 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="foot" type="Sprite" parent="TopLeg/BottomLeg"]
+modulate = Color( 0.705882, 0.705882, 0.705882, 1 )
+position = Vector2( 0.196381, 162.9 )
+rotation = -0.418674
+texture = ExtResource( 4 )
+offset = Vector2( 42.8857, 0 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="TopLeg2" type="Sprite" parent="."]
+position = Vector2( -27.1243, 63.6624 )
+rotation = -0.534386
+texture = ExtResource( 5 )
+offset = Vector2( 0.0375366, 126.215 )
+__meta__ = {
+"_edit_bone_": true,
+"_edit_ik_": true
+}
+
+[node name="BottomLeg" type="Sprite" parent="TopLeg2"]
+position = Vector2( 3.26465, 237.166 )
+rotation = 0.836919
+texture = ExtResource( 3 )
+offset = Vector2( 1.68179, 82.4079 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="foot" type="Sprite" parent="TopLeg2/BottomLeg"]
+position = Vector2( 0.196381, 162.9 )
+rotation = -0.330128
+texture = ExtResource( 4 )
+offset = Vector2( 42.8857, 0 )
+__meta__ = {
+"_edit_bone_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/IDLE = ExtResource( 2 )
+anims/RUN = ExtResource( 1 )
